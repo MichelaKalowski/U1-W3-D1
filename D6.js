@@ -106,9 +106,16 @@ function check3and7(number) {
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
 
-function reverseString () {
+function reverseString(stringa){
+    let stringaTag = stringa.split('')//divide stringa carattere per carattere
+    console.log(stringaTag);
+    let stringaCont=stringaTag.reverse()
+    console.log(stringaCont);
+    let risultato= stringaCont.join("");//join converte array in una stringa
+    console.log(risultato);
+ }
+ console.log(reverseString("Hello"))
 
-}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 8
