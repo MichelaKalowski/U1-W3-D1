@@ -96,7 +96,7 @@ function epify()
 */
 function check3and7(number) {
     if (number % 3 === 0 || number % 7 === 0) {
-        return 
+        return
     }
 }
 
@@ -106,15 +106,15 @@ function check3and7(number) {
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
 
-function reverseString(stringa){
+function reverseString(stringa) {
     let stringaTag = stringa.split('')//divide stringa carattere per carattere
     console.log(stringaTag);
-    let stringaCont=stringaTag.reverse()
+    let stringaCont = stringaTag.reverse()
     console.log(stringaCont);
-    let risultato= stringaCont.join("");//join converte array in una stringa
+    let risultato = stringaCont.join("");//join converte array in una stringa
     console.log(risultato);
- }
- console.log(reverseString("Hello"))
+}
+console.log(reverseString("Hello"))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -124,6 +124,30 @@ function reverseString(stringa){
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const upperFirst = (stringa) => {
+    let parole = stringa + split(" ");
+    for (let index = 0; index < parole.lenght; index++) {
+        let par = parole[index].split(" ");
+        let stringaFinale = ""//stringa vuota
+        for (let i = 0; i < par.lenght; i++); {
+            if (i === 0) {
+                let primaMaiuscola = par[i].toUpperCase()
+                stringaFinale + primaMaiuscola
+
+            }
+            else {
+                stringaFinale + par[i]
+            }
+            return risultato;
+        }
+        risultato = stringaFinale + "";
+        console.log(upperFirst("Lorem Ipsum"))
+
+
+
+    }
+}
 
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
@@ -138,6 +162,6 @@ function reverseString(stringa){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-function giveMeRandom(n){
+function giveMeRandom(n) {
 
 }
