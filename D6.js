@@ -126,6 +126,7 @@ console.log(reverseString("Hello"))
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const upperFirst = (stringa) => {
+    let risultato = ""
     let parole = stringa + split(" ");
     for (let index = 0; index < parole.lenght; index++) {
         let par = parole[index].split(" ");
@@ -147,21 +148,22 @@ const upperFirst = (stringa) => {
 
 
     }
-}
+    }
 
-/* ESERCIZIO 9
- Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
- della stringa originale.
-*/
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+    /* ESERCIZIO 9
+     Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
+     della stringa originale.
+    */
 
-/* ESERCIZIO 10
- Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
-*/
+    /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+    /* ESERCIZIO 10
+     Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
+    */
 
-function giveMeRandom(n) {
+    /* SCRIVI QUI LA TUA RISPOSTA */
 
-}
+    function giveMeRandom(n) {
+
+    }
