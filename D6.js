@@ -105,10 +105,8 @@ function check3and7(number) {
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
-let stringa = "Michela";
-const capitalize = str => str.charAct(0).toUppercase()+str.slice(1);
-console.log(capitalize(str));
-function reverseString (Michela) {
+
+function reverseString () {
 
 }
 /* SCRIVI QUI LA TUA RISPOSTA */
