@@ -58,6 +58,8 @@ function crazyDiff(param) {
     let d = (param - 19) * -1;
     if (param > 19) {
         return (d * 3);
+    }else{
+        return d;
     }
 
 }
@@ -73,19 +75,38 @@ console.log(crazyDiff(10));
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 function boundary(n) {
-    if (20 <= n >= 100 || n === 400)
+    if (20 <= n <= 100 || n === 400){
         return true;
+    }else{ 
+return false;
+    }
+   
+        
 
 }
 
 console.log(boundary(30));
-
+console.log(boundary(105));
 /* ESERCIZIO 5
  Scrivi una funzione di nome "epify" che accetta una stringa come parametro.
  La funzione deve aggiungere la parola "EPICODE" all'inizio della stringa fornita, ma se la stringa fornita comincia già con "EPICODE" allora deve
  ritornare la stringa originale senza alterarla.
 */
-function epify()
+function epify(stringa) {
+if(stringa.startsWith('EPICODE')){
+    return stringa;
+
+}else{
+    return "EPICODE"+ stringa;
+}
+
+
+
+
+
+
+}
+console.log(epify("buongiorno"))
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -142,28 +163,25 @@ const upperFirst = (stringa) => {
             }
             return risultato;
         }
-        risultato = stringaFinale + "";
-        console.log(upperFirst("Lorem Ipsum"))
-
-
-
     }
-    }
+}
+risultato = stringaFinale + "";
+console.log(upperFirst("Lorem Ipsum"))
 
 
-    /* ESERCIZIO 9
-     Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
-     della stringa originale.
-    */
+/* ESERCIZIO 9
+ Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
+ della stringa originale.
+*/
 
-    /* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA */
 
-    /* ESERCIZIO 10
-     Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
-    */
+/* ESERCIZIO 10
+ Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
+*/
 
-    /* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA */
 
-    function giveMeRandom(n) {
+function giveMeRandom(n) {
 
-    }
+}
