@@ -117,7 +117,7 @@ console.log(epify("buongiorno"))
 */
 function check3and7(number) {
     if (number % 3 === 0 || number % 7 === 0) {
-        return
+        return true
     }
 }
 
