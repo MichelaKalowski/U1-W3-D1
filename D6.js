@@ -173,6 +173,10 @@ console.log(upperFirst("Lorem Ipsum"))
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
+const cutString = function (str) {
+    return str.slice(1, str.length - 1)
+  }
+  console.log(cutString('CIAO'))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -182,6 +186,11 @@ console.log(upperFirst("Lorem Ipsum"))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-function giveMeRandom(n) {
-
-}
+const giveMeRandom = function (n) {
+    const arr = []
+    for (let i = 0; i < n; i++) {
+      arr.push(Math.floor(Math.random() * 10))
+    }
+    return arr
+  }
+  console.log(giveMeRandom(2))
